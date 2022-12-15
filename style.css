@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+.wrapper {
+    width: 960px;
+    margin: 30px auto;
+}
+nav {
+    display: block;
+    width: 500px;
+    text-align: center;
+    margin: 30px auto;
+    margin-bottom: -50px;
+    margin-left: 243px;
+}
+nav a {
+    padding: 10px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font: 15px "Inter";
+}
+nav a:hover, nav.active {
+    color:aqua;
+    text-decoration: none;
+
+}
+main h1 {
+    font: 31px "Inter";
+    margin-top: 80px;
+}
+main p {
+    margin-left: 166px;
+    margin-right: 170px;
+    margin-top: 50px;
+    font: 20px "Inter";
+    color: #FFFFFF;
+    text-align: left;
+}
+main {
+    width: 1000px;
+    padding: 20px;
+}
+img {
+    width: 600px;
+    display: block;
+    height: 750px;
+}
+h1{
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: -10px;
+    margin-bottom: 20px;
+}
+img{
+    margin-left: 170px;
+    margin-top: 50px;
+}
+.conteiner {
+    display: flex;
+    margin-left: 140px;
+    margin-right: 300px;
+}
+.conteiner img{
+    width: 155px;
+    height: 200px;
+    margin-left: 24px;
+    float: center;
+}
+figcaption {
+    margin-top: 200px;
+    font: "Inter";
+    color: #FFFFFF;
+}
+li {
+    color: #FFFFFF;
+    font: 20px "Inter";
+    margin-left: 143px;
+    margin-top: 30px;
+}
+ul {
+    margin-top: 50px;
+}
+#contact-form input[type="text"]
+{
+height: 20px;
+width: 250px;
+padding: 5px;
+margin-bottom: 10px;
+border: white solid 1px;
+background-color: #FFFFFF;
+}
+#contact-form input[type="submit"]{
+background-color: whitesmoke;
+height: 40px;
+width: 180px;
+font: "Inter";
+font-size: 20px; 
+}
+#contact-form input[type="submit"]:hover{
+background-color: aqua;
+}
+#topic{
+height: 34px;
+width: 262px;
+margin-bottom: 10px;
+border: white solid 1px;
+background-color: #FFFFFF;
+}
+textarea{
+height: 150px;
+width: 262px;
+margin-bottom: 10px;
+border: white solid 1px;
+background-color: #FFFFFF;
+}
+#contact-form input[type="email"]{
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: #FFFFFF;
+}
+#contact-form input[type="number"]{
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: #FFFFFF;
+}
+.form_item{
+    margin-left: 160px;
+}
+#contact-form {
+    margin-top: 50px;
+}
+label {
+    font: "Inter";
+    color: #FFFFFF;
+}
+footer {
+    margin-left: 180px;
+    margin-top: 100px;
+    margin-bottom: -60px;
+    margin: 30px auto;
+}
+footer p{
+    color: #FFFFFF;
+    font: 20px "Inter";
+    text-align: center;
+    margin: 50px auto;
+    margin-left: 30px;
+}
